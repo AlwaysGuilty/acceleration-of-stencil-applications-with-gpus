@@ -1,0 +1,237 @@
+% clanki
+@article{anjum2022efficient,
+    title={An efficient GPU implementation and scaling for higher-order 3D stencils},
+    author={Anjum, Omer and Almasri, Mohammad and de Gonzalo, Simon Garcia and Hwu, Wen-mei},
+    journal={Information Sciences},
+    volume={586},
+    pages={326--343},
+    year={2022},
+    publisher={Elsevier}
+}
+
+@ARTICLE{7438873,
+    author={Rana, Vincenzo and Beretta, Ivan and Bruschi, Francesco and Nacci, Alessandro A. and Atienza, David and Sciuto, Donatella},
+    journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+    title={Efficient Hardware Design of Iterative Stencil Loops},
+    year={2016},
+    volume={35},
+    number={12},
+    pages={2018-2031},
+    keywords={Embedded systems;Field programmable gate arrays;Iterative methods;Multimedia communication;Performance evaluation;Signal processing algorithms;Dataflow synthesis;embedded systems;field-programmable gate array (FPGA);High-level synthesis;iterative functions;multimedia processing;performance optimization},
+    doi={10.1109/TCAD.2016.2545408}
+}
+
+@article{SCHAFER20112027,
+    title = {High Performance Stencil Code Algorithms for GPGPUs},
+    journal = {Procedia Computer Science},
+    volume = {4},
+    pages = {2027-2036},
+    year = {2011},
+    note = {Proceedings of the International Conference on Computational Science, ICCS 2011},
+    issn = {1877-0509},
+    doi = {https://doi.org/10.1016/j.procs.2011.04.221},
+    url = {https://www.sciencedirect.com/science/article/pii/S1877050911002791},
+    author = {Andreas Schäfer and Dietmar Fey},
+    keywords = {Stencil codes, GPU, High performance computing, Temporal blocking, Jacobi solver, CUDA},
+    abstract = {In this paper we investigate how stencil computations can be implemented on state-of-the-art general purpose graphics processing units (GPGPUs). Stencil codes can be found at the core of many numerical solvers and physical simulation codes and are therefore of particular interest to scientific computing research. GPGPUs have gained a lot of attention recently because of their superior floating point performance and memory bandwidth. Nevertheless, especially memory bound stencil codes have proven to be challenging for GPGPUs, yielding lower than to be expected speedups. We chose the Jacobi method as a standard benchmark to evaluate a set of algorithms on NVIDIA's latest Fermi chipset. One of our fastest algorithms is a parallel wavefront update. It exploits the enlarged on-chip shared memory to perform two time step updates per sweep. To the best of our knowledge, it represents the first successful applicationof temporal blocking for 3D stencils on GPGPUs and thereby exceeds previous results by a considerable margin. It is also the first paper to study stencil codes on Fermi.}
+}
+
+@inproceedings{10.1145/1513895.1513905,
+    author = {Micikevicius, Paulius},
+    title = {3D finite difference computation on GPUs using CUDA},
+    year = {2009},
+    isbn = {9781605585178},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/1513895.1513905},
+    doi = {10.1145/1513895.1513905},
+    abstract = {In this paper we describe a GPU parallelization of the 3D finite difference computation using CUDA. Data access redundancy is used as the metric to determine the optimal implementation for both the stencil-only computation, as well as the discretization of the wave equation, which is currently of great interest in seismic computing. For the larger stencils, the described approach achieves the throughput of between 2,400 to over 3,000 million of output points per second on a single Tesla 10-series GPU. This is roughly an order of magnitude higher than a 4-core Harpertown CPU running a similar code from seismic industry. Multi-GPU parallelization is also described, achieving linear scaling with GPUs by overlapping inter-GPU communication with computation.},
+    booktitle = {Proceedings of 2nd Workshop on General Purpose Processing on Graphics Processing Units},
+    pages = {79-84},
+    numpages = {6},
+    keywords = {CUDA, GPU, finite difference, parallel algorithms},
+    location = {Washington, D.C., USA},
+    series = {GPGPU-2}
+}
+
+@phdthesis{Surina_2009,
+    place={Ljubljana},
+    title={Primerjava grafičnih procesnih enot in centralnih procesnih enot: diplomsko delo},
+    url={https://repozitorij.uni-lj.si/IzpisGradiva.php?lang=slv&id=156700},
+    school={I. Surina},
+    author={Surina, Ivan},
+    year={2009}
+}
+
+% 2nd pub
+@inproceedings{holewinski2012high,
+    title     = {High-performance code generation for stencil computations on GPU architectures},
+    author    = {Holewinski, Justin and Pouchet, Louis-No{\"e}l and Sadayappan, Ponnuswamy},
+    booktitle = {Proceedings of the 26th ACM international conference on Supercomputing},
+    pages     = {311--320},
+    year      = {2012}
+}
+
+@article{lenia,
+    title     = {Lenia: Biology of Artificial Life},
+    volume    = {28},
+    issn      = {0891-2513},
+    url       = {http://dx.doi.org/10.25088/ComplexSystems.28.3.251},
+    doi       = {10.25088/complexsystems.28.3.251},
+    number    = {3},
+    journal   = {Complex Systems},
+    publisher = {Wolfram Research, Inc.},
+    author    = {Chan, Bert Wang-Chak},
+    year      = {2019},
+    month     = oct,
+    pages     = {251-286}
+}
+
+@proceedings{lenia_expanded,
+    author   = {Chan, Bert Wang-Chak},
+    title    = {Lenia and Expanded Universe},
+    volume   = {ALIFE 2020: The 2020 Conference on Artificial Life},
+    series   = {Artificial Life Conference Proceedings},
+    pages    = {221-229},
+    year     = {2020},
+    month    = {07},
+    abstract = {We report experimental extensions of Lenia, a continuous cellular automata family capable of producing lifelike self-organizing autonomous patterns. The rule of Lenia was generalized into higher dimensions, multiple kernels, and multiple channels. The final architecture approaches what can be seen as a recurrent convolutional neural network. Using semiautomatic search e.g. genetic algorithm, we discovered new phenomena like polyhedral symmetries, individuality, self-replication, emission, growth by ingestion, and saw the emergence of “virtual eukaryotes” that possess internal division of labor and type differentiation. We discuss the results in the contexts of biology, artificial life, and artificial intelligence.},
+    doi      = {10.1162/isal_a_00297},
+    url      = {https://doi.org/10.1162/isal\_a\_00297},
+    eprint   = {https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/221/1908612/isal\_a\_00297.pdf}
+}
+
+@misc{brandvik,
+    title  = {Nvidia},
+    url    = {https://www.nvidia.com/content/PDF/isc-2011/Brandvik.pdf},
+    author = {Tobias Brandvik},
+    year   = {2011},
+    note   = {Accessed on April 12th, 2025}
+}
+
+% Wiki articles
+
+% multicore cpus
+@misc{enwiki:1337149106,
+    author = "{Wikipedia contributors}",
+    title = "Multi-core processor --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2026",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Multi-core_processor&oldid=1337149106}",
+    note = "[Online; accessed 12-March-2026]"
+}
+
+% Iterative stencil loops
+@misc{enwiki:1334948319,
+    author = "{Wikipedia contributors}",
+    title = "Iterative Stencil Loops --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2026",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Iterative_Stencil_Loops&oldid=1334948319}",
+    note = "[Online; accessed 6-March-2026]"
+}
+
+% CUDA
+@misc{enwiki:1339431307,
+    author = "{Wikipedia contributors}",
+    title = "CUDA --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2026",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=CUDA&oldid=1339431307}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% Stencil
+@misc{enwiki:1301222257,
+    author = "{Wikipedia contributors}",
+    title = "Stencil (numerical analysis) --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2025",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Stencil_(numerical_analysis)&oldid=1301222257}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% 9 point stencil
+@misc{enwiki:1333449780,
+    author = "{Wikipedia contributors}",
+    title = "Nine-point stencil --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2026",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Nine-point_stencil&oldid=1333449780}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% Numerical differentiation
+@misc{enwiki:1339867648,
+    author = "{Wikipedia contributors}",
+    title = "Numerical differentiation --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2026",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Numerical_differentiation&oldid=1339867648}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% Non compact stencil
+@misc{enwiki:1303174617,
+    author = "{Wikipedia contributors}",
+    title = "Non-compact stencil --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2025",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Non-compact_stencil&oldid=1303174617}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% Compact stencil
+@misc{enwiki:1312813633,
+    author = "{Wikipedia contributors}",
+    title = "Compact stencil --- {Wikipedia}{,} The Free Encyclopedia",
+    year = "2025",
+    howpublished = "\url{https://en.wikipedia.org/w/index.php?title=Compact_stencil&oldid=1312813633}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% Nvidia docs
+@misc{cuda-programming-guide,
+    author = "{NVIDIA}",
+    title = "CUDA Programming Guide --- CUDA Programming Guide",
+    year = "2026",
+    howpublished = "\url{https://docs.nvidia.com/cuda/cuda-programming-guide/index.html}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% sling workshop
+@misc{sling-workshop,
+    author = "{Patricio, Bulić}",
+    title = "About the Workshop - SLING user documentation",
+    year = "2026",
+    howpublished = "\url{https://doc.sling.si/en/workshops/programming-gpu-cuda/01-intro/01-course/}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% 9 point stencil slika iz wikipedie
+@misc{wiki:stencil-image,
+   author = "Wikimedia Commons",
+   title = "File:9-point stencil.png --- Wikimedia Commons{,} the free media repository",
+   year = "2023",
+   url = "\url{https://commons.wikimedia.org/w/index.php?title=File:9-point_stencil.png&oldid=771400331}",
+   note = "[Online; accessed 14-March-2026]"
+}
+
+% Oxford slides
+@misc{oxford-slides,
+    author = "{Giles, Mike}",
+    title = "About the Workshop - SLING user documentation",
+    year = "2026",
+    howpublished = "\url{https://people.maths.ox.ac.uk/gilesm/cuda/lecs/lec2.pdf}",
+    note = "[Online; accessed 8-March-2026]"
+}
+
+% GitHub repos
+@misc{repo,
+    author = "{Vengust, Tadej}",
+    title = "AlwaysGuilty/acceleration-of-stencil-applications-with-gpus",
+    year = "2026",
+    howpublished = "\url{https://github.com/AlwaysGuilty/acceleration-of-stencil-applications-with-gpus}",
+    note = "[Online; accessed 14-March-2026]"
+}
+
+@misc{repo-ps,
+    author = "{Lotrič, Uroš}",
+    title = "PS/predavanja/19-gpe/gpe.md at main · laspp/PS",
+    year = "2026",
+    howpublished = "\url{https://github.com/laspp/PS/blob/main/predavanja/19-gpe/gpe.md}",
+    note = "[Online; accessed 14-March-2026]"
+}
